@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(236, 233, 233);
+    background-size: contain,
+    height: 100vh;
+    overflow: hidden;
+    margin: 0px;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+    background-color: #282b30;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: #282b30;;
+    text-align: center;
+    padding: 0px 0;
+    font-size: 30px;
+  }
+
+  .row{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    background-color: #282b30;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative
+  }
+
+  .row > div {
+    background-color: 	#7289da;
+    /* animation-name: blinking;
+    animation-duration: 2s; */
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+
+@keyframes blinking {
+  0%{background-color: #282b30;}
+  50%{background-color: #7289da;}
+  100%{background-color: #282b30;}
+}
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="pathfinding.css" rel="stylesheet">
+    
+</head>
+<body>
+    <button id="add_col" onclick="add_col()">Add col</button>
+    <button id="add_row" onclick="add_row()">Add row</button>
+    <button id="set_start" onclick="set_start()">Set Start</button>
+    <button id="set_exit" onclick="set_exit()">Set Exit</button>
+    <button id="start_dfs" onclick="dfs()">Start DFS</button>
+    <button id="reset" onclick="reset()">Reset</button>
+    <button id="make_wall" onclick="make_wall()">Make Wall</button>
+    <div id="grid-container" class="grid-container">
+        <div class="row">
+            <div id="1,1" onclick="set_start_exit(this.id)"> </div> 
+        </div>
+            
+    </div>
+    <script type="text/javascript" src="pathfinding.js" ></script>
+</body>
+</html>
