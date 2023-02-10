@@ -1,6 +1,6 @@
 # Maze Solver
 
-A path finding algorithm that is garunteed to find an exit for a maze if a solution exists
+A path finding algorithm that is guaranteed to find an exit for a maze if a solution exists
 
 In this example the end point is the **red** square at the **bottom right**
 
